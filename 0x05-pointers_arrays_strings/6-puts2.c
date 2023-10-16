@@ -7,6 +7,7 @@
  *
  * Return: Nothing
  */
+
 void puts2(char *str)
 {
 	int i;
@@ -14,7 +15,7 @@ void puts2(char *str)
 	for (i = 0; str[i] != '\0'; ++i)
 	{
 		if (i % 2 == 0)
-			_puthcar(str[i]);
+			_putchar(str[i]);
 	}
 	_putchar('\n');
 }
