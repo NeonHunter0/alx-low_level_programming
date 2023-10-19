@@ -34,7 +34,7 @@ int isDelimiter(char c)
  */
 
 char *cap_string(char *s)
-{
+;{
 	char *ptr = s;
 	int foundDelimit = 1;
 
@@ -49,7 +49,7 @@ char *cap_string(char *s)
 		}
 		else
 			foundDelimit = 0;
-		s++
+		s++;
 	}
 	return (ptr);
 }
