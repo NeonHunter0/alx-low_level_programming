@@ -32,7 +32,7 @@ int inception(char *s1, char *s2)
 }
 
 /**
- * wildcmp - compares cwo strings lexicographically
+ * wildcmp - compares two strings lexicographically
  * @s1: the first string
  * @s2: the second string, can contain wildcard
  *
@@ -59,7 +59,7 @@ int wildcmp(char *s1, char *s2)
 }
 
 /**
- * wildcmp - compares cwo strings lexicographically
+ * wildcmp - compares two strings lexicographically
  * @s1: the first string
  * @s2: the second string, can contain wildcard
  *
