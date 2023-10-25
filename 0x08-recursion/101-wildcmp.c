@@ -64,7 +64,7 @@ int wildcmp(char *s1, char *s2)
  *
  * Return: 1 if identical, 0 if false
  */
-int wildcmp(char *s1, char *s2)
+
 {
 	int ret = 0;
 
