@@ -59,7 +59,7 @@ int wildcmp(char *s1, char *s2)
 }
 
 /**
- * wildcmp - compares two strings
+ * wildcmp - compares two strings lexicographically
  * @s1: the first string
  * @s2: the second string, can contain wildcard
  *
