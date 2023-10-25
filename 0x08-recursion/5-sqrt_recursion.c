@@ -7,6 +7,7 @@
  * Return: int
  */
 int square(int n, int val);
+
 int _sqrt_recursion(int n)
 
 {
@@ -14,10 +15,10 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * square - find square root
- * @n: int to find square root
- * @val: square root
- * return: int
+ * square - Finds the square root recursively.
+ * @n: Integer to find the square root of.
+ * @val: Current value being checked for square root.
+ * Return: The square root of n if it exists, -1 otherwise.
  */
 
 int square(int n, int val)
