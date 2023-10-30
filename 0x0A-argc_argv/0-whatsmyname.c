@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point of the program
  * @argc: int
  * @argv: list
