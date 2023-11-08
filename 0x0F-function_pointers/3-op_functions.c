@@ -1,4 +1,4 @@
-#include "3-clac.h"
+#include "3-calc.h"
 
 /**
  * op_add - adds two integers
@@ -16,7 +16,7 @@ int op_add(int a, int b)
  * op_sub - subtract two integers
  * @a: the first int
  * @b: the second int
- * Return: the diffrence
+ * Return: the differences
  */
 int op_sub(int a, int b)
 {
@@ -24,10 +24,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multipties two integers
+ * op_mul - multiplies two integers
  * @a: the first int
  * @b: the second int
- * return: the product
+ * Return: the product
  */
 int op_mul(int a, int b)
 {
@@ -55,4 +55,3 @@ int op_mod(int a, int b)
 {
 	return (a % b);
 }
-
